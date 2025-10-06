@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Diandra Studio | Women's Fashion & Accessories</title>
+
+  <!--Link and Meta-->
+  <link rel="icon" type="image/x-icon" href="./assets/image/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Diandra Studio - Local fashion brand offering women's clothing and accessories." />
+  <meta name="author" content="Amirah Diandra" />
+  <meta name="keywords"
+    content="fashion, women's fashion, local brand, Diandra Studio, women's clothing, accessories, dresses, coats, jumpsuits" />
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Allura&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tangerine:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+</head>
+
+<body>
+  <header class="nav-bar">
+    <a href="index.html" class="logo" aria-label="Diandra Studio Home">
+      <img src="./assets/image/logo-black.png" alt="Diandra Studio Logo" />
+    </a>
+
+    <nav class="nav-list" aria-label="Main navigation">
+      <ul class="nav-items">
+        <li><a class="nav-link" href="#new-arrival">New Arrivals</a></li>
+        <li><a class="nav-link" href="#category">Category</a></li>
+        <li><a class="nav-link" href="#profile">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h1 class="visually-hidden">Welcome to Diandra Studio</h1>
+
+    <!-- Slider-->
+
+    <section aria-label="Featured Products Slider" aria-live="polite" aria-atomic="true" role="region"
+      aria-roledescription="carousel">
+      <div class="slider-container" tabindex="0" role="group" aria-label="Featured Products">
+        <div class="slider-track" id="sliderTrack" role="list">
+          <div class="slide" role="listitem" aria-roledescription="slide"
+            aria-label="Slide 1: Woman in a black dress, looking away from the camera">
+            <figure>
+              <img src="./assets/image/1.jpg" alt="Woman in a black dress, looking away from the camera" />
+            </figure>
+          </div>
+          <div class="slide" role="listitem" aria-roledescription="slide"
+            aria-label="Slide 2: Woman sitting wearing a yellow lace trim jumpsuit">
+            <figure>
+              <img src="./assets/image/2.jpg" alt="Woman sitting wearing a yellow lace trim jumpsuit" />
+            </figure>
+          </div>
+          <div class="slide" role="listitem" aria-roledescription="slide"
+            aria-label="Slide 3: Woman wearing a yellowish green dress">
+            <figure>
+              <img src="./assets/image/3.jpg" alt="Woman wearing a yellowish green dress" />
+            </figure>
+          </div>
+          <div class="slide" role="listitem" aria-roledescription="slide"
+            aria-label="Slide 4: Woman in a black blouse looking directly at the camera">
+            <figure>
+              <img src="./assets/image/4.jpg" alt="Woman in a black blouse looking directly at the camera" />
+            </figure>
+          </div>
+        </div>
+        <div id="carouselStatus" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+
+    <section id="new-arrival" aria-label="New Product Arrivals">
+      <div>
+        <h2 class="section-title">~ New Arrivals ~</h2>
+      </div>
+
+      <div class="row" role="list">
+        <article class="column" role="listitem">
+          <div class="image-card">
+            <a href="#" class="product-link" aria-label="View Yellow Lace Trim Jumpsuit">
+              <img src="./assets/image/jumpsuit.png" alt="Yellow Lace Trim Jumpsuit" />
+            </a>
+          </div>
+          <h3 class="product-title">
+            <a href="#" class="product-link">Yellow Lace Trim Jumpsuit</a>
+          </h3>
+          <p class="product-price">Rp 400.000</p>
+          <button type="button" class="product-button" aria-label="Add Yellow Lace Trim Jumpsuit to cart">
+            Add to Cart
+          </button>
+        </article>
+
+        <article class="column" role="listitem">
+          <div class="image-card">
+            <a href="#" class="product-link" aria-label="View Beige Puff Sleeve Midi Dress">
+              <img src="./assets/image/midi_dress.png" alt="Beige Puff Sleeve Midi Dress" />
+            </a>
+          </div>
+          <h3 class="product-title">
+            <a href="#" class="product-link">Beige Puff Sleeve Midi Dress</a>
+          </h3>
+          <p class="product-price">Rp 500.000</p>
+          <button type="button" class="product-button" aria-label="Add Beige Puff Sleeve Midi Dress to cart">
+            Add to Cart
+          </button>
+        </article>
+
+        <article class="column" role="listitem">
+          <div class="image-card">
+            <a href="#" class="product-link" aria-label="View Black Lace Buttons One-Set">
+              <img src="./assets/image/one_set.png" alt="Black Lace Buttons One-Set" />
+            </a>
+          </div>
+          <h3 class="product-title">
+            <a href="#" class="product-link">Black Lace Buttons One-Set</a>
+          </h3>
+          <p class="product-price">Rp 800.000</p>
+          <button type="button" class="product-button" aria-label="Add Black Lace Buttons One-Set to cart">
+            Add to Cart
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Category -->
+
+    <section id="category" aria-label="Product Categories">
+      <h2 class="section-title">~ Category ~</h2>
+
+      <ul class="row" role="list">
+        <li id="acc" class="column cate" role="listitem">
+          <a href="#" aria-label="Go to Accessories category">Accessories</a>
+        </li>
+
+        <li id="coat" class="column cate" role="listitem">
+          <a href="#" aria-label="Go to Coats category">Coats</a>
+        </li>
+
+        <li id="hat" class="column cate" role="listitem">
+          <a href="#" aria-label="Go to Hats category">Hats</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- About Us -->
+
+    <section id="profile" aria-label="Profile">
+      <h2 id="profile-title">* Diandra Studio *</h2>
+      <p>
+        A local brand offering a variety of women's clothing — from shirts and
+        dresses to pants, hats, and accessories.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+        sapiente saepe reprehenderit aperiam. Sunt, commodi, expedita
+        perferendis optio, officiis laborum odio soluta suscipit totam sint
+        quia molestiae blanditiis eligendi. Laborum.
+      </p>
+    </section>
+
+    <!-- Creator Profile -->
+
+    <aside aria-label="Creator Profile">
+      <article class="creator" role="complementary">
+        <header>
+          <h3>Made By:</h3>
+          <figure>
+            <img src="./assets/image/amirahdiandra.jpg" alt="Amirah Diandra" />
+            <figcaption>Creator Information</figcaption>
+          </figure>
+        </header>
+
+        <table>
+          <tr>
+            <th>Name:</th>
+            <td>Amirah Diandra</td>
+          </tr>
+
+          <tr>
+            <th>Age:</th>
+            <td>23 y.o</td>
+          </tr>
+
+          <tr>
+            <th>From:</th>
+            <td>Jakarta, Indonesia</td>
+          </tr>
+        </table>
+      </article>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+
+  <footer>
+    <nav class="social-media" aria-label="Footer with social media links">
+      <ul>
+        <li>
+          <a href="index.html" aria-label="Home"><i class="fas fa-home"></i></a>
+        </li>
+        <li>
+          <a href="mailto:amirahdiandra73@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </li>
+        <li>
+          <a href="https://wa.me/6281293934392" aria-label="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/choko.bunni/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/en" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="./assets/javascript/script.js"></script>
+</body>
+
+</html>
